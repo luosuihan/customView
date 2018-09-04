@@ -6,8 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.administrator.myview.MainActivity">
 
-    <com.example.administrator.myview.demo01.DemoView01
-        android:layout_margin="10dp"
+    <com.example.administrator.myview.demo01.DemoView02
+        android:id="@+id/mpb"
+        android:layout_margin="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
