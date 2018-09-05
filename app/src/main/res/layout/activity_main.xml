@@ -7,14 +7,9 @@
     android:orientation="vertical"
     tools:context="com.example.administrator.myview.MainActivity">
 
-    <com.example.administrator.myview.demo01.DemoView05
+    <com.example.administrator.myview.demo01.DemoView06
         android:id="@+id/ringView"
-        android:layout_width="match_parent"
-        android:layout_height="260dp" />
-
-    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="哈哈"/>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
