@@ -68,7 +68,7 @@ public class DemoView06 extends View {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        
+
     }
 
     @Override
@@ -86,7 +86,6 @@ public class DemoView06 extends View {
         canvas.drawPoint(350,350,mPaintDot);
         canvas.drawArc(rectF,0,90,true,mPaintArc);
         canvas.drawArc(rectF,90,60,true,mPaintArc1);
-        canvas.translate();
 
     }
 }
